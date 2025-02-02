@@ -2,23 +2,28 @@
 /*Fira Sans/serif */
 
 *{
-    margin-left: 40px;
-    margin-right: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 #Navigation{
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    margin-left: 160px;
+    margin-right: 160px;
 
 }
 .title {
 
     color: #0E0E0E;
         font-family: "Fira Sans";
-        font-size: 28px;
+        font-size: 24px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
         line-height: normal;
 }
 
@@ -30,13 +35,107 @@
     justify-content: center;
     align-items: center;
     gap: 48px;
-
         color: #006A50;
         font-family: "Fira Sans";
         font-size: 18px;
-        font-weight: 600;
-      
-        
+        font-weight: 600;      
 }
 
+#banner{
+    
+    margin: auto;
+    height:auto;
+    width: 1280px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #C6E4D6;
+    padding: 50px 20px;
+    margin-bottom: 80px;
+}
+
+.bdiv{
+    width: 640px;
+   
+}
+
+.bp{
+    color: rgba(14, 14, 14, 0.50);
+        font-family: "Fira Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 24px;
+}
+.bt{
+    color: #0E0E0E;
+        font-family: "Fira Sans";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 24px;
+}
+
+.btnB{
+    display: flex;
+    padding: 17px 34px;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 8px;
+    background: #006A50;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none;
+    border: none;
+}
+
+.imghero{
+    height: 300px;
+    width: 350px;
+}
+.heading{
+    color: #0E0E0E;
+        font-family: "Fira Sans";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+#piller{
+    margin: auto;
+    height: auto;
+    width: 1280px;
+}
+.cardDivs{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 20px;
+
+}
+.card{
+    display: flex;
+    width: 302px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+
+#vision{
+    
+}
 
